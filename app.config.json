@@ -1,0 +1,10 @@
+{
+  "environmentUrl": "https://gmg80500.dev.apps.dynatracelabs.com/",
+  "app": {
+    "name": "Linz Travel Pool",
+    "version": "0.0.0",
+    "description": "An empty project",
+    "id": "my.linz.travel.pool",
+    "scopes": [{ "name": "storage:logs:read", "comment": "default template" }, { "name": "storage:buckets:read", "comment": "default template" }]
+  }
+}
