@@ -1,10 +1,31 @@
 {
   "environmentUrl": "https://gmg80500.dev.apps.dynatracelabs.com/",
   "app": {
-    "name": "Linz Travel Pool",
+    "name": "Office Travel Pooling",
     "version": "0.0.0",
-    "description": "An empty project",
-    "id": "my.linz.travel.pool",
-    "scopes": [{ "name": "storage:logs:read", "comment": "default template" }, { "name": "storage:buckets:read", "comment": "default template" }]
+    "description": "An application to organize in-between office travels by train.",
+    "id": "damien.app.officetravel",
+    "scopes": [
+      {
+        "name": "storage:logs:read",
+        "comment": "default template"
+      },
+      {
+        "name": "storage:buckets:read",
+        "comment": "default template"
+      },
+      {
+        "name": "storage:events:write",
+        "comment": "To store the bookings as business events"
+      },
+      {
+        "name": "storage:events:read",
+        "comment": "default template"
+      },
+      {
+        "name": "storage:bizevents:read",
+        "comment": "default template"
+      }
+    ]
   }
 }
